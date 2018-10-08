@@ -9,6 +9,7 @@ figure;
 hold on;
 [C,h] = contourf(X,Y,T,500);
 set(h,'LineColor','none');
-plot(xVec, yVec, 'k', 'LineWidth', 1);
+colorbar;
+plot(xVec, yVec, 'k--', 'LineWidth', 1);
 xlabel('x'); ylabel('y');
 hold off;
